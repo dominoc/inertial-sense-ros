@@ -136,7 +136,7 @@ Topics are enabled and disabled using parameters.  By default, only the `ins` to
 * `~GPS_ant2_xyz` (vector(3), default: {0, 0, 0})
     - The NED translation vector between the INS frame and the GPS 2 antenna (wrt INS frame)
 * `~GPS_ref_lla` (vector(3), default: {0, 0, 0})
-    - The Reference longitude, latitude and altitude for NED calculation in degrees, degrees and meters (use the `set_refLLA` service to update this automatically)
+    - The Reference latitude, longitude and altitude for NED calculation in degrees, degrees and meters (use the `set_refLLA` service to update this automatically)
 * `~inclination` (float, default: 1.14878541071)
     - The inclination of earth's magnetic field (radians)
 * `~declination` (float, default: 0.20007290992)
